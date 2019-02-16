@@ -55,9 +55,9 @@ services:
     volumes:
         - ./dbflute_xxx:/app/dbflute_maihamadb/:rw
         - ./mydbflute:/app/mydbflute/:rw
-        - ./src:/app/src/:ro # ソースコードからドキュメント作成を行う場合のみマウント
+        - ./src:/app/src/:ro
     environment:
-      DBFLUTE_ENVIRONMENT_TYPE: "docker" # Docker内部で利用する dfprop ファイルを切り替えるための変数
+      DBFLUTE_ENVIRONMENT_TYPE: "docker"
     links:
       - db
     networks:
