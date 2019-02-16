@@ -91,7 +91,7 @@ environment:
   DBFLUTE_ENVIRONMENT_TYPE: "docker"
 ```
 
-これを利用して、以下のようなディレクトリ構成で dfprop ファイルを配置します
+この環境変数が指定されている場合にのみ別の設定を適用するために、以下のようなディレクトリ構成で dfprop ファイルを配置します
 ```
 your-project-dir
 |-...
