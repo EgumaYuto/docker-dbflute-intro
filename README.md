@@ -138,7 +138,7 @@ map:{
 ### サンプルプロジェクト
 https://github.com/lastaflute/lastaflute-test-fortress
 
-以下のコマンドで起動するようになっています。
+以下のコマンドで、webアプリケーション、MySQL、DBFlute-IntroがDokcerで起動するようになっています。
 ```
 $ cd path/to/lastaflute-test-fortress
 $ mvn package
